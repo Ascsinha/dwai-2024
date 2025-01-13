@@ -1,0 +1,45 @@
+body {
+    background: #FAFAFA;
+    height: 1394px;
+    width: 1440px;
+}
+
+.flex {
+    display: flex;
+}
+
+.alinhar-colunas {
+    flex-direction: column;
+}
+
+.alinhar-inicio {
+    align-items: flex-start;
+}
+
+.alinhar-vertical {
+    align-items: center;
+}
+
+.alinhar-horizontal {
+    justify-content: center;
+}
+
+.alinhar-extremidades {
+    justify-content: space-between;
+}
+
+main {
+    padding-bottom: 108px;
+}
+
+.biografia .card-foto {
+    
+}
+
+.azul {
+    color: #0D6EFD;
+}
+
+.amarelo {
+    color: #FFC107;
+}
