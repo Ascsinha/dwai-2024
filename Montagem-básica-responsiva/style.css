@@ -1,5 +1,6 @@
 body {
     background: #FAFAFA;
+    font-family: Lato;
     height: 1394px;
     width: 1440px;
 }
@@ -28,12 +29,54 @@ body {
     justify-content: space-between;
 }
 
+.centralizar {
+    justify-content: center;
+    align-items: center;
+}
+
 main {
     padding-bottom: 108px;
 }
 
 .biografia .card-foto {
-    
+    border-radius: 10px;
+    background: var(--neutras-White, #FFF);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.biografia .card-foto img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.biografia .card-foto .legenda {
+    padding: 16px;
+    gap: 8px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.biografia .card-foto .legenda h1 {
+    color: #495057;
+    line-height: 100%;
+}
+
+span {
+    color: #6C757D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.biografia .descricao {
+    padding: 16px;
+    gap: 24px;
+    border-radius: 5px;
+    background: var(--neutras-White, #FFF);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
 }
 
 .azul {
