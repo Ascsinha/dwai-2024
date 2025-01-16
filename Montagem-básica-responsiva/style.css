@@ -34,12 +34,8 @@ body {
     align-items: center;
 }
 
-section {
-    padding: 92px 0 0 0;
-}
-
 main {
-    padding: 0px 135px 108px 135px;
+    padding: 0 135px 108px 135px;
 }
 
 .biografia .card-foto {
@@ -96,7 +92,7 @@ main .titulo h1 {
     line-height: 120%;
 }
 
-main .projetos {
+main .projetos, main .projetos .card div {
     flex-wrap: wrap;
 }
 
@@ -137,4 +133,14 @@ main .projetos .card div div span {
 
 .amarelo {
     color: #FFC107;
+}
+
+footer {
+    border-top: 1px solid #DEE2E6;
+    gap: 4px;
+    padding: 32px 0px 16px 0px;
+}
+
+footer span {
+    line-height: 120%;
 }
