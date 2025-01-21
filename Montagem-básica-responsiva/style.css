@@ -1,0 +1,157 @@
+body {
+    background: #FAFAFA;
+    font-family: Lato;    
+}
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.alinhar-colunas {
+    flex-direction: column;
+}
+
+.alinhar-inicio {
+    align-items: flex-start;
+}
+
+.alinhar-vertical {
+    align-items: center;
+}
+
+.alinhar-horizontal {
+    justify-content: center;
+}
+
+.alinhar-extremidades {
+    justify-content: space-between;
+}
+
+.centralizar {
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 92px 135px 108px 135px;
+}
+
+.biografia {
+    flex-wrap: wrap;
+}
+
+.biografia .card-foto {
+    background: var(--neutras-White, #FFF);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.biografia .card-foto img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.biografia .card-foto .legenda {
+    padding: 16px;
+    gap: 8px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.biografia .card-foto .legenda h1 {
+    color: #495057;
+    line-height: 100%;
+}
+
+span {
+    color: #6C757D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.biografia .descricao {
+    background: var(--neutras-White, #FFF);
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    padding: 16px;
+    gap: 24px;
+}
+
+main .titulo {
+    border-bottom: 1px solid #DEE2E6;
+    gap: 4px;
+    margin-bottom: 34px;
+    margin-top: 73px;
+    padding-bottom: 16px;
+}
+
+main .titulo h1 {
+    color: var(--neutras-Aco, #273644);
+    line-height: 120%;
+}
+
+main .projetos, main .projetos .card div {
+    flex-wrap: wrap;
+}
+
+main .projetos .card {
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    margin-bottom: 35px;
+    width: 270px;
+}
+
+main .projetos .card div {
+    padding: 16px;
+    gap: 12px;
+}
+
+main .projetos .card div div {
+    padding: 0;
+}
+
+main .projetos .card div div strong {
+    color: #495057;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+main .projetos .card div div span {
+    flex-wrap: wrap;
+    line-height: 140%;
+}
+
+.borda-amarela {
+    border: 2px solid #FFC107;
+}
+
+.azul {
+    color: #0D6EFD;
+}
+
+.amarelo {
+    color: #FFC107;
+}
+
+footer {
+    border-top: 1px solid #DEE2E6;
+    gap: 4px;
+    margin: 0 135px 34px 135px;
+    padding: 32px 0px 16px 0px;
+}
+
+footer span {
+    line-height: 120%;
+}
