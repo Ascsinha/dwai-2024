@@ -1,0 +1,28 @@
+.flex {
+    display: flex;
+}
+
+.alinhar-extremidades {
+    justify-content: space-between;
+}
+
+.centralizar {
+    justify-content: center;
+    align-items: center;
+}
+
+.alinhar-colunas {
+    flex-direction: column;
+}
+
+.alinhar-fim {
+    justify-content: flex-end;
+}
+
+.alinhar-vertical {
+    align-items: center;
+}
+
+.alinhar-horizontal {
+    justify-content: center;
+}
