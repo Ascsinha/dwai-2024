@@ -5,7 +5,7 @@ body {
 
 header {
     background: linear-gradient(265deg, #203C86 46.03%, #203C86 53.97%);
-    width: auto;
+    width: 100%;
 }
 
 i {
@@ -44,15 +44,21 @@ nav a {
     color: #ffffff;
 }
 
-.meio {
-    margin: 100px 0 100px 0;
-}
-
 main {
-    max-width: 781px;
+    margin: 100px 0 100px 0;
+    max-width: 1200px;
+    width: 100%;
 }
 
-main .titulo {
+main .container {
+    max-width: 1200px;
+}
+
+main .introducao {
+    max-width: 742px;
+}
+
+main .introducao .titulo {
     gap: 32px;
 }
 
@@ -94,7 +100,8 @@ main .logo img {
     width: 278px;
 }
 
-main .apresentacao p {
+main .apresentacao p, 
+main .paragrafo-2 p {
     color: var(--Prata, #3C4858);
     font-size: 21px;
     line-height: 170%;
@@ -106,7 +113,7 @@ main .sub-titulo {
     font-size: 14px;
     font-weight: 500;
     line-height: 120%;
-    margin: 76px 0 38px 0;
+    margin: 76px 0 27px 0;
 }
 
 main .sub-titulo h2 {
@@ -114,7 +121,7 @@ main .sub-titulo h2 {
     font-size: 24px;
     font-weight: 700;
     line-height: 120%;
-    margin: 0;
+    margin: 0 0 7px 0;
 }
 
 main .sub-titulo span {
@@ -122,4 +129,16 @@ main .sub-titulo span {
     display: block;
     height: 4px;
     width: 100px;
+}
+
+main .container2 {
+    width: 100%;
+}
+
+main .container2 .paragrafo-2 p {
+    max-width: 485px;
+}
+
+main .container2 .card figure {
+    margin: 15px 0 0 0;
 }
