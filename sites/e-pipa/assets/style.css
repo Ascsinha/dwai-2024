@@ -8,7 +8,7 @@ header {
     width: 100%;
 }
 
-i {
+header i {
     color: #FFC82C;
     margin: 5px;
 }
@@ -45,7 +45,7 @@ nav a {
 }
 
 main {
-    margin: 100px 0 100px 0;
+    margin: 100px 0 0 0;
     max-width: 1200px;
     width: 100%;
 }
@@ -92,7 +92,7 @@ main .titulo .comentario div {
 }
 
 main .logo {
-    margin: 45px 0 70px 0;  
+    margin: 45px 0 70px 0;
 }
 
 main .logo img {
@@ -100,7 +100,7 @@ main .logo img {
     width: 278px;
 }
 
-main .apresentacao p, 
+main .apresentacao p,
 main .paragrafo-2 p {
     color: var(--Prata, #3C4858);
     font-size: 21px;
@@ -108,7 +108,8 @@ main .paragrafo-2 p {
     margin: 0;
 }
 
-main .sub-titulo {
+main .sub-titulo,
+main .titulo-fotos small {
     font-family: "Montserrat";
     font-size: 14px;
     font-weight: 500;
@@ -116,7 +117,8 @@ main .sub-titulo {
     margin: 76px 0 27px 0;
 }
 
-main .sub-titulo h2 {
+main .sub-titulo h2,
+main .titulo-fotos h2 {
     font-family: "Montserrat";
     font-size: 24px;
     font-weight: 700;
@@ -139,6 +141,214 @@ main .container2 .paragrafo-2 p {
     max-width: 485px;
 }
 
+main .container2 .card {
+    display: block;
+}
+
 main .container2 .card figure {
+    border: 1px solid var(--ui-color-primary, #2648A1);
+    border-radius: 10px;
     margin: 15px 0 0 0;
+}
+
+main .container2 .card figure img {
+    max-width: 100%;
+    transform: scale(105%);
+}
+
+main .container2 .card figcaption {
+    align-items: flex-start;
+    height: 60px;
+    justify-content: end;
+    padding-bottom: 11px;
+    width: 450px;
+}
+
+main .container2 .card figcaption strong,
+main .container2 .card figcaption span {
+    text-decoration: none;
+}
+
+main .container2 .card figcaption strong {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+main .container2 .card figcaption span {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+main .titulo-fotos {
+    margin: 90px 0 16px 0;
+    max-width: 742px;
+    width: 100%;
+}
+
+main .titulo-fotos small,
+main .titulo-fotos h2 {
+    margin: 0;
+}
+
+.praias div {
+    gap: 10px;
+    margin-bottom: 113px;
+}
+
+.praias .imagens-praias {
+    align-items: flex-start;
+    gap: 4px;
+    width: 280px;
+}
+
+.praias .imagens-praias figcaption {
+    gap: 8px;
+}
+
+.praias .imagens-praias figcaption h3 {
+    margin: 0;
+}
+
+footer {
+    background: var(--Linear, linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%));
+    padding: 60px 16px;
+    width: 100%;
+}
+
+footer li,
+footer p,
+footer a {
+    color: var(--Neve, #F9FAFC);
+    margin: 0;
+}
+
+footer .container3 {
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+
+footer .container3 .coluna-1 figure {
+    margin: 0;
+}
+
+footer .container3 .coluna-1 figure img {
+    width: 152.813px;
+    height: 60px;
+}
+
+footer i {
+    color: var(--Neve, #F9FAFC);
+    height: 18px;
+    width: 15px;
+}
+
+footer .container3 .coluna-1 {
+    gap: 47px;
+    max-width: 272px;
+    width: 100%;
+}
+
+footer .container3 address {
+    align-items: flex-start;
+    gap: 24px;
+}
+
+footer .container3 address div {
+    color: var(--Neve, #F9FAFC);
+    gap: 22px;
+}
+
+footer .coluna-2 {
+    gap: 21px;
+    max-width: 496px;
+    width: 100%;
+}
+
+footer .coluna-2 .menus {
+    gap: 24px;
+}
+
+footer .coluna-2 .menus .menu-rodape {
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+footer .coluna-2 .menus .menu-rodape li {
+    list-style-type: none;
+}
+
+footer .coluna-2 .menus .menu-rodape li a {
+    color: var(--Fumaca-Extra-Dark, #C0CCDA);
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+    text-decoration: none;
+}
+
+footer .coluna-2 p {
+    color: #E0E6ED;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+footer .coluna-3 {
+    max-width: 269px;
+    width: 100%;
+}
+
+footer .coluna-3 .bloco-telegram {
+    border-radius: 6px;
+    background: #FFF;
+    gap: 37px;
+    height: 188px;
+    padding: 32px 24px;
+}
+
+footer .coluna-3 .bloco-telegram .descricao {
+    gap: 15px;
+}
+
+footer .coluna-3 .bloco-telegram .descricao h3 {
+    color: var(--Black-2, #1F2D3D);
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 180%;
+    margin: 0;
+}
+
+footer .coluna-3 .bloco-telegram .descricao p {
+    color: var(--Gray, #8492A6);
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+footer .coluna-3 .bloco-telegram .button {
+    border-radius: 4px;
+    background: var(--ui-color-primary-light, #3A95E9);
+    gap: 27px;
+    padding: 12px 22px;
+}
+
+footer .coluna-3 .bloco-telegram .button a {
+    font-family: "Lato";
+    font-size: 14px;
+    gap: 27px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+footer .coluna-3 .bloco-telegram .button a i {
+
 }
