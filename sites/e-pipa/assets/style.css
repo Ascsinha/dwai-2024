@@ -1,6 +1,59 @@
 body {
     font-family: "Lato", sans-serif;
     margin: 0;
+    width: 100%;
+}
+
+@media (max-width: 568px) {
+
+    body {
+        max-width: 100%;
+        padding: 0 16px;
+    }
+
+    header {
+        display: flex;
+        height: auto;
+        justify-content: space-between;
+        padding: 12px 16px;
+        width: 100%;
+    }
+
+    header .top {
+        max-width: 100%;
+    }
+
+    header .top .redes-sociais,
+    header .top span,
+    header .top .logo-1 nav {
+        display: none;
+    }
+
+    header .top .nao-visivel {
+        margin: 0;
+        display: block;
+        width: 32px;
+        height: 32px;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    main .container2 {
+        flex-wrap: wrap-reverse;
+        gap: 40px;
+        justify-content: center;
+        max-width: 536px;
+    }
+
+    main .container2 .card figure img {
+        transform: scale(100%);
+    }
+
+    footer .container3 {
+        flex-direction: column;
+    }
 }
 
 header {
@@ -16,6 +69,14 @@ header i {
 .top {
     color: #ffffff;
     gap: 12px;
+}
+
+.visivel {
+    visibility: visible;
+}
+
+.nao-visivel {
+    display: none;
 }
 
 .redes-sociais {
@@ -152,7 +213,6 @@ main .container2 .card figure {
 }
 
 main .container2 .card figure img {
-    max-width: 100%;
     transform: scale(105%);
 }
 
@@ -349,6 +409,4 @@ footer .coluna-3 .bloco-telegram .button a {
     text-decoration: none;
 }
 
-footer .coluna-3 .bloco-telegram .button a i {
-
-}
+footer .coluna-3 .bloco-telegram .button a i {}
