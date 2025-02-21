@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    height: 1174px;
+}
+
+header {
+    padding: 16px 32px;
+}
+
+header div {
+    gap: 16px;
+}
+
+header div .inscricoes {
+    background: #F60;
+    border-radius: 4px;
+    gap: 10px;
+    padding: 4px 16px;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+header div .inscricoes h2 {
+    color: #FEFEFE;
+    font-family: "Roboto";
+}
+
+header div .inscricoes i {
+    width: 24px;
+    height: 24px;
+}
