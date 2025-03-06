@@ -3,11 +3,8 @@ body {
     width: 100%;
 }
 
-.container {
-    max-width: 1440px;
-}
-
 header {
+    border-bottom: 1px solid #E5E7EB;
     padding: 16px 32px;
 }
 
@@ -45,10 +42,129 @@ header .usuario img {
     border-radius: 100%;
 }
 
+header .usuario .nome {
+    color: #0F3679;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 nav {
-    padding: 40px var(--spacing-spacing-md, 24px);
+    border-right: 1px solid #E5E7EB;
+    padding: 20px var(--spacing-spacing-md, 40px);
 }
 
 nav a figure {
+    margin: 0;
+    padding: 10px;
+}
+
+nav .abas {
+    padding: var(--spacing-spacing-sm, 8px);
+}
+
+nav .abas div {
+    color: #0D5EAF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;  
+}
+
+nav .grupo-2 {
+    border-top: 1px solid #E7EBF2;
+}
+
+nav .left-fim {
+    padding-top: 24px;
+}
+
+main .meio {
+    padding: 40px;
+}
+
+main .cabecalho {
+    padding: 0 24px;
+}
+
+main .cabecalho .titulo,
+main .cards .card .card-tipo {
+    gap: 8px;
+}
+
+main .meio h1 {
+    color: #111827;
+    font-family: Archivo;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 0;
+}
+
+main .cabecalho .dados {
+    gap: 16px;
+}
+
+main .cabecalho .dados .dado {
+    gap: 6px;
+}
+
+main .cabecalho .dados .dado:nth-child(1),
+main .cabecalho .dados .dado:nth-child(2)  {
+    color: #797D84;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+main .cabecalho .dados .dado:nth-child(3) {
+    color: #1A1C20;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+main .cabecalho .editar {
+    background: #F2F9FD;
+    border-radius: var(--border-radius-sm, 6px);
+    padding: 6px;
+}
+
+main .cards {
+    gap: 24px;
+    padding: 12px 16px 24px 16px;
+}
+
+main .cards .card {
+    background: #F2F9FD;
+    border-radius: 6px;
+    gap: 25px;
+    padding: 12px 16px 24px 16px;
+    width: 219px;
+}
+
+h2 {
+    color: #2E96C9;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%; 
+}
+
+main .card div:nth-child(2) big {
+    color: #374151;
+    font-family: Archivo;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+ h3 {
+    color: #2E96C9;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
     margin: 0;
 }
