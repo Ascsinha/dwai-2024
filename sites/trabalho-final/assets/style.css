@@ -5,7 +5,6 @@ body {
 
 .container {
     max-width: 1440px;
-    height: 1174px;
 }
 
 header {
@@ -34,7 +33,22 @@ header div .inscricoes h2 {
     font-family: "Roboto";
 }
 
-header div .inscricoes i {
-    width: 24px;
-    height: 24px;
+header .usuario .circulo {
+    height: 32px;
+    width: 32px;
+    box-sizing: border-box;
+    border: 2px solid #E5E7EB;
+    border-radius: 100%;
+}
+
+header .usuario img {
+    border-radius: 100%;
+}
+
+nav {
+    padding: 40px var(--spacing-spacing-md, 24px);
+}
+
+nav a figure {
+    margin: 0;
 }
