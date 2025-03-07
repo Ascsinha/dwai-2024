@@ -68,7 +68,7 @@ nav .abas div {
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
-    line-height: 120%;  
+    line-height: 120%;
 }
 
 nav .grupo-2 {
@@ -81,10 +81,6 @@ nav .left-fim {
 
 main .meio {
     padding: 40px;
-}
-
-main .cabecalho {
-    padding: 0 24px;
 }
 
 main .cabecalho .titulo,
@@ -109,7 +105,7 @@ main .cabecalho .dados .dado {
 }
 
 main .cabecalho .dados .dado:nth-child(1),
-main .cabecalho .dados .dado:nth-child(2)  {
+main .cabecalho .dados .dado:nth-child(2) {
     color: #797D84;
     font-family: Inter;
     font-size: 16px;
@@ -133,7 +129,7 @@ main .cabecalho .editar {
 
 main .cards {
     gap: 24px;
-    padding: 12px 16px 24px 16px;
+    margin: 35px 0;
 }
 
 main .cards .card {
@@ -149,7 +145,7 @@ h2 {
     font-family: Inter;
     font-size: 14px;
     font-weight: 500;
-    line-height: 140%; 
+    line-height: 140%;
 }
 
 main .card div:nth-child(2) big {
@@ -160,11 +156,246 @@ main .card div:nth-child(2) big {
     line-height: 120%;
 }
 
- h3 {
+h3 {
     color: #2E96C9;
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
     line-height: 140%;
     margin: 0;
+}
+
+main .meio .secao-funcoes {
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+main .meio .secao-funcoes strong,
+main .meio .inscricoes strong {
+    color: #494E57;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+main .meio .secao-funcoes strong div,
+main .meio .inscricoes strong div {
+    color: #494E57;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+main .meio .secao-funcoes .funcoes {
+    gap: 24px;
+}
+
+main .meio .secao-funcoes .funcoes .funcao {
+    background: #FFF;
+    border: 1px solid #2E96C9;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(15, 54, 121, 0.15);
+    min-width: 78px;
+    padding: 16px;
+}
+
+main .meio .secao-funcoes .todas-funcoes .nova-funcao {
+    background: #FCFCFC;
+    border-radius: 10px;
+    border: 1px dashed #90CAE9;
+    padding: 16px;
+}
+
+main .meio .inscricoes {
+    gap: 16px;
+}
+
+main .meio .inscricoes .ultimas-inscricoes {
+    gap: 24px;
+}
+
+main .meio .inscricoes .ultimas-inscricoes .participantes {
+    gap: 4px;
+}
+
+main .meio .inscricoes .ultimas-inscricoes .participantes .infos {
+    border-radius: 2px;
+    border: 1px solid #DCEFF8;
+    gap: 12px;
+    padding: 12px 24px;
+}
+
+main .meio .inscricoes .ultimas-inscricoes .participantes .infos .verde,
+main .meio .inscricoes .ultimas-inscricoes .participantes .infos .azul,
+main .meio .inscricoes .ultimas-inscricoes .participantes .infos .vermelho {
+    border-radius: 100%;
+    height: 8px;
+    width: 8px;
+}
+
+.verde {
+    background-color: #41AB34;
+}
+
+.azul {
+    background-color: #4FADDB;
+}
+
+.vermelho {
+    background-color: #D42C07;
+}
+
+main .meio .inscricoes .ultimas-inscricoes .participantes .infos .mais {
+    width: 180px;
+}
+
+main .meio .inscricoes .ultimas-inscricoes .participantes .infos .menos {
+    width: 60px;
+}
+
+main .meio .inscricoes .ultimas-inscricoes .participantes .infos h2 {
+    color: #494E57;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+main .area .grafico .item {  
+    width: 65px;
+    padding: 0px 10px;
+    height: 81px;
+    color: #FFF;   
+} 
+
+main .area .grafico .square-1 {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px ;
+}
+
+main .area .grafico .square-4 {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px ;
+}
+
+main .area .legendas {
+    gap: 8px;
+    font-size: 12px;
+}
+
+main .area .legendas .legenda {
+    gap: 6px;
+}
+
+main .cor-1 {
+    background-color: #2E96C9;
+}
+
+main .cor-2 {
+    background-color: #4FADDB;
+}
+
+main .cor-3 {
+    background-color: #90CAE9;
+}
+
+main .cor-4 {
+    background-color: #E4F1FA;
+}
+
+main .area .legendas .legenda .circle {
+    width: 12px;
+    height: 12px;
+}
+
+main .area-tasks {
+    padding: var(--spacing-spacing-xl, 20px) var(--spacing-spacing-md, 24px) var(--spacing-spacing-lg, 32px) var(--spacing-spacing-md, 24px);
+    background-color: #F2F9FD;
+    color: #0F3679;
+    margin-top: 4px;
+    width: 350px;
+    position: relative;
+    gap: 24px;
+
+}
+
+main .area-tasks figure {
+    margin: 0;
+}
+
+main .area-tasks h2 {
+    font-size: 18px;
+    margin: 11px 0 4px 0;
+}
+
+main .area-tasks small {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main .area-tasks .tarefas {
+    gap: var(--spacing-spacing-lg, 32px);
+}
+
+main .area-tasks .tarefas-list button {
+    padding: 16px;
+    border-radius: 6px;
+    border: none;
+    background: #FEFEFE;
+    box-shadow: -2px 2px 6px 0px rgba(15, 54, 121, 0.15);
+    width: 302px;
+    cursor: pointer;
+}
+
+main .area-tasks .tarefas .circle {
+    background-color: #E7EBF2;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+main .area-tasks .tarefas .circle .icon {
+    background-color: #0F3679;
+    border-radius: 16px;
+    position: absolute;
+    left: 20px;
+    bottom: 28px;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+}
+
+main .area-tasks .tarefas-list button div:nth-child(2) {
+    color:#0F3679 ;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+main .area-tasks .atividades a {
+    text-decoration: underline;
+    color: #092049;
+}
+
+main .area-tasks .atividades {
+    gap: var(--spacing-spacing-lg, 32px);
+
+}
+
+main .area-tasks .task {
+    background-color: #fff;
+    gap: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    padding: 16px;
+    cursor: pointer;
+}
+
+main .area-tasks .task h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+main .area-tasks .task small {
+    font-size: 12px;
 }
